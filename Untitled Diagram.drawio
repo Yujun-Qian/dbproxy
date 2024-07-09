@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-07-09T09:22:06.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Z0KZu1WwGZOExzBXsyxg" version="24.6.4" type="github">
+  <diagram name="Page-1" id="EaMqOVLkPJXepxOjLr7G">
+    <mxGraphModel dx="994" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-2" value="端到端整体耗时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8QsjlGK0ObKJ4sRFqH-S-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799" y="650" as="sourcePoint" />
+            <mxPoint x="799" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-5" value="请求总耗时(客户端视角)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="650" as="sourcePoint" />
+            <mxPoint x="210" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="650" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-12" value="api总耗时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290.2" y="650" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570.1999999999999" y="640" as="sourcePoint" />
+            <mxPoint x="570" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-16" value="combo总耗时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370.2" y="650" as="sourcePoint" />
+            <mxPoint x="370" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8QsjlGK0ObKJ4sRFqH-S-20" value="parent耗时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
